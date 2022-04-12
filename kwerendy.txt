@@ -1,0 +1,7 @@
+import: mariadb egzamin < baza.sql.txt
+kw1: select dataZadania, miesiac, wpis from zadania where miesiac = 'sierpien';
+kw2: select miesiac, rok from zadania where dataZadania = '2020-08-01';
+kw3: select distinct wpis from zadania where wpis like '%o';
+kw4: update zadania set wpis = 'Wycieczka: Karkonosze' where dataZadania = '2020-08-27';
+
+skalowanie: convert -resize 100x100 logo1.png logo.png
